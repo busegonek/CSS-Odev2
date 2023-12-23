@@ -1,0 +1,82 @@
+/* html gövde pozisyonu ayarlandı */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+/* linklerin renkleri ayarlandı 
+   linklerin altlarına çizgi verildi */
+a {
+  text-decoration: underline;
+  color: blue;
+}
+
+/* Google logosunun pozisyonları ayarlandı */
+#google_logo {
+  /* yazı ortalandı */
+  text-align: center;
+  /* block ile bir alt satıra geçilmesi sağlandı (block-level özelliği) */
+  display: block;
+  margin: 0 auto;
+  /* verilen pozisyon ayarlarını bir sonraki div için geçersiz kılmak adına clear both kullanıldı */
+  clear: both;
+  padding-top: 112px;
+  padding-bottom: 20px;
+}
+
+/* form öğesinin içindeki text'ler ortalandı */
+.form {
+  /* yazıları ortalamak için text align center verildi */
+  text-align: center;
+}
+
+/* arama kutucuğunun özellikleri belirtildi */
+#form-search { 
+  width: 450px;
+  line-height: 32px;
+  padding: 20px 10px;
+}
+
+/* form paddingler verildi */
+.form #form-search {
+  padding: 0 8px;
+}
+
+/* butonların özellikleri belirtildi */
+.buttons {
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* sayfanın sol kısmı */
+.sol {
+    display: grid;
+    width:33.3%;
+    height:10%;
+    background-color:#CCCCCC;
+    float: left;
+    text-align: center;
+}
+
+/* sayfanın orta kısmı */
+.orta {
+    display: grid;
+    width:33.3%;
+    height:10%;
+    background-color:CCCCCC;
+    float:left;
+    text-align: center;
+}
+
+/* sayfanın sağ kısmı */
+.sag {
+    display: grid;
+    width:33.4%;
+    height:10%;
+    background-color:CCCCCC;
+    float: right;
+    text-align: center
+}
+  

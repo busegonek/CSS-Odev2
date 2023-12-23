@@ -1,0 +1,49 @@
+<html lang="tr">
+<head>
+  <!-- Sayfa başlığı verildi -->
+  <title>Google</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+  
+<body>    
+  <!-- google adında bir class oluşturuldu -->
+  <div class="google">
+    <!-- logoyu ilgili yere yerleştirebilmek için gerekli css çağırıldı -->
+    <a href="#" id="google_logo"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt=""/></a>
+  </div>
+
+  <!-- form adında bir class oluşturuldu -->
+  <div class="form"> 
+    <p>Search the web using Google!</p>
+    <form>
+      <!-- form-search classı çağırıldı -->
+      <label for="form-search"></label>
+      <input type="text" id="form-search" placeholder="">
+    </form>
+  </div>  
+
+  <!-- buttons adında bir class oluşturuldu -->
+  <div class= "buttons">  
+    <input type="submit" onClick="parent.location='http://zeusaku.com/'" value="Google Search">
+    <input type="submit" onClick="parent.location='http://zeusaku.com/'" value="I'm Feeling Lucky">
+  </div>
+
+  <!-- butonların altlarındaki footer alanları inşa edildi ve her bir alan için gerekli css çağırıldı -->
+  <div class="sol">
+    <p>Special Searches</p>
+    <a href="http://zeusaku.com">zeusaku</a>
+  </div>
+
+  <div class="orta">
+    <a href="http://zeusaku.com">Help!</a>
+    <a href="http://zeusaku.com">About Google</a>
+  </div>
+
+  <div class="sag">
+    <input type="text" placeholder="Enter your email for monthly Google news:">
+    <button>Subscribe</button>
+  </div>
+
+</body>
+</html>
